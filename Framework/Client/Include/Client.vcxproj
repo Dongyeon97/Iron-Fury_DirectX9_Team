@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0c4dda69-3420-4956-bf85-60ebcb5ff643}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Client\Binary\</OutDir>
+    <IntDir>$(SolutionDir)Client\Intermediate\</IntDir>
+    <IncludePath>$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Client\Binary\</OutDir>
+    <IntDir>$(SolutionDir)Client\Intermediate\</IntDir>
+    <IncludePath>$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../Include;../Header;../../Import/Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dcompiler.lib;dinput8.lib;dxguid.lib;Engine.lib;fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Import/Library;../../Engine/Engine/Binary;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../Include;../Header;../../Import/Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;d3dcompiler.lib;dxguid.lib;Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Import/Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\AcidWater.h" />
+    <ClInclude Include="..\Header\ArmorActor.h" />
+    <ClInclude Include="..\Header\ArmorPieceActor.h" />
+    <ClInclude Include="..\Header\ArmorUI.h" />
+    <ClInclude Include="..\Header\AttackTask.h" />
+    <ClInclude Include="..\Header\CardKeyActor.h" />
+    <ClInclude Include="..\Header\ElevatorKeyBox.h" />
+    <ClInclude Include="..\Header\BossTrigger.h" />
+    <ClInclude Include="..\Header\SetStateTask.h" />
+    <ClInclude Include="..\Header\WarmechBlade.h" />
+    <ClInclude Include="..\Header\WarmechBomb.h" />
+    <ClInclude Include="..\Header\WarmechBullet.h" />
+    <ClInclude Include="..\Header\WarmechMissile.h" />
+    <ClInclude Include="..\Header\BulletActor.h" />
+    <ClInclude Include="..\Header\CardKeyBox.h" />
+    <ClInclude Include="..\Header\CardKeyGate.h" />
+    <ClInclude Include="..\Header\ChainGunActor.h" />
+    <ClInclude Include="..\Header\ChainGunBulletActor.h" />
+    <ClInclude Include="..\Header\ChainGunItemActor.h" />
+    <ClInclude Include="..\Header\Client.h" />
+    <ClInclude Include="..\Header\Cultist.h" />
+    <ClInclude Include="..\Header\Deacon.h" />
+    <ClInclude Include="..\Header\DeadTask.h" />
+    <ClInclude Include="..\Header\DisperserActor.h" />
+    <ClInclude Include="..\Header\DisperserBulletActor.h" />
+    <ClInclude Include="..\Header\ElectrifryerActor.h" />
+    <ClInclude Include="..\Header\ElevatorKeyBox1.h" />
+    <ClInclude Include="..\Header\ElevatorFloor.h" />
+    <ClInclude Include="..\Header\FlameEmitter.h" />
+    <ClInclude Include="..\Header\FloatingBox.h" />
+    <ClInclude Include="..\Header\FinalGate.h" />
+    <ClInclude Include="..\Header\FinalGateBox.h" />
+    <ClInclude Include="..\Header\LaserEmitter.h" />
+    <ClInclude Include="..\Header\LeverGate.h" />
+    <ClInclude Include="..\Header\PowerMonitor.h" />
+    <ClInclude Include="..\Header\PlayerParticleActor.h" />
+    <ClInclude Include="..\Header\PowerMonitor1.h" />
+    <ClInclude Include="..\Header\RainParticleActor.h" />
+    <ClInclude Include="..\Header\SceneChangerActor.h" />
+    <ClInclude Include="..\Header\Skinjob.h" />
+    <ClInclude Include="..\Header\PenetratorItemActor.h" />
+    <ClInclude Include="..\Header\SkyBox.h" />
+    <ClInclude Include="..\Header\Stage1.h" />
+    <ClInclude Include="..\Header\PlayerEffectActor.h" />
+    <ClInclude Include="..\Header\Stage4.h" />
+    <ClInclude Include="..\Header\ThrowingBox.h" />
+    <ClInclude Include="..\Header\Stage2.h" />
+    <ClInclude Include="..\Header\WaitFlyingTask.h" />
+    <ClInclude Include="..\Header\GameApp.h" />
+    <ClInclude Include="..\Header\GarbageActor.h" />
+    <ClInclude Include="..\Header\HanamuraLevel.h" />
+    <ClInclude Include="..\Header\HealthPackActor.h" />
+    <ClInclude Include="..\Header\FlyingTask.h" />
+    <ClInclude Include="..\Header\IdleMoveTask.h" />
+    <ClInclude Include="..\Header\InGameUI.h" />
+    <ClInclude Include="..\Header\Item.h" />
+    <ClInclude Include="..\Header\ItemObjectActor.h" />
+    <ClInclude Include="..\Header\LeverBox.h" />
+    <ClInclude Include="..\Header\LoverboyActor.h" />
+    <ClInclude Include="..\Header\LoverboyBulletActor.h" />
+    <ClInclude Include="..\Header\DisperserItemActor.h" />
+    <ClInclude Include="..\Header\LoverboyLHActor.h" />
+    <ClInclude Include="..\Header\MedKitActor.h" />
+    <ClInclude Include="..\Header\Monster.h" />
+    <ClInclude Include="..\Header\MoveTask.h" />
+    <ClInclude Include="..\Header\MonsterUI.h" />
+    <ClInclude Include="..\Header\OutGameUI.h" />
+    <ClInclude Include="..\Header\PenetratorActor.h" />
+    <ClInclude Include="..\Header\PenetratorBulletActor.h" />
+    <ClInclude Include="..\Header\PlayerUI.h" />
+    <ClInclude Include="..\Header\Projectile.h" />
+    <ClInclude Include="..\Header\Pustule.h" />
+    <ClInclude Include="..\Header\Stage3.h" />
+    <ClInclude Include="..\Header\SunActor.h" />
+    <ClInclude Include="..\Header\RepositionTask.h" />
+    <ClInclude Include="..\Header\SyringeActor.h" />
+    <ClInclude Include="..\Header\TestBossMonster.h" />
+    <ClInclude Include="..\Header\ItemUI.h" />
+    <ClInclude Include="..\Header\RadarActor.h" />
+    <ClInclude Include="..\Header\RecoveryActor.h" />
+    <ClInclude Include="..\Header\SkillActor.h" />
+    <ClInclude Include="..\Header\PlayerActor.h" />
+    <ClInclude Include="..\Header\TextUI.h" />
+    <ClInclude Include="..\Header\Mechsect.h" />
+    <ClInclude Include="..\Header\TrashCanActor.h" />
+    <ClInclude Include="..\Header\WaitTask.h" />
+    <ClInclude Include="..\Header\WallBlade.h" />
+    <ClInclude Include="..\Header\WallLaser.h" />
+    <ClInclude Include="..\Header\WarmechCharge.h" />
+    <ClInclude Include="..\Header\WarmechHead.h" />
+    <ClInclude Include="..\Header\WarmechLeg.h" />
+    <ClInclude Include="..\Header\WarmechSmash.h" />
+    <ClInclude Include="..\Header\WeaponActor.h" />
+    <ClInclude Include="..\Header\WeaponItemActor.h" />
+    <ClInclude Include="..\Header\WeaponLHActor.h" />
+    <ClInclude Include="..\Header\WeaponUI.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Header\BossTrigger.cpp" />
+    <ClCompile Include="..\Source\AcidWater.cpp" />
+    <ClCompile Include="..\Source\ArmorActor.cpp" />
+    <ClCompile Include="..\Source\ArmorPieceActor.cpp" />
+    <ClCompile Include="..\Source\ArmorUI.cpp" />
+    <ClCompile Include="..\Source\AttackTask.cpp" />
+    <ClCompile Include="..\Source\CardKeyActor.cpp" />
+    <ClCompile Include="..\Source\SetStateTask.cpp" />
+    <ClCompile Include="..\Source\ElevatorKeyBox.cpp" />
+    <ClCompile Include="..\Source\WarmechBlade.cpp" />
+    <ClCompile Include="..\Source\WarmechBomb.cpp" />
+    <ClCompile Include="..\Source\WarmechBullet.cpp" />
+    <ClCompile Include="..\Source\WarmechMissile.cpp" />
+    <ClCompile Include="..\Source\BulletActor.cpp" />
+    <ClCompile Include="..\Source\CardKeyBox.cpp" />
+    <ClCompile Include="..\Source\CardKeyGate.cpp" />
+    <ClCompile Include="..\Source\ChainGunActor.cpp" />
+    <ClCompile Include="..\Source\ChainGunBulletActor.cpp" />
+    <ClCompile Include="..\Source\ChainGunItemActor.cpp" />
+    <ClCompile Include="..\Source\Client.cpp" />
+    <ClCompile Include="..\Source\Cultist.cpp" />
+    <ClCompile Include="..\Source\Deacon.cpp" />
+    <ClCompile Include="..\Source\DeadTask.cpp" />
+    <ClCompile Include="..\Source\DisperserActor.cpp" />
+    <ClCompile Include="..\Source\DisperserBulletActor.cpp" />
+    <ClCompile Include="..\Source\ElectrifryerActor.cpp" />
+    <ClCompile Include="..\Source\ElevatorKeyBox1.cpp" />
+    <ClCompile Include="..\Source\ElevatorFloor.cpp" />
+    <ClCompile Include="..\Source\FlameEmitter.cpp" />
+    <ClCompile Include="..\Source\FloatingBox.cpp" />
+    <ClCompile Include="..\Source\FinalGate.cpp" />
+    <ClCompile Include="..\Source\FinalGateBox.cpp" />
+    <ClCompile Include="..\Source\LaserEmitter.cpp" />
+    <ClCompile Include="..\Source\PowerMonitor.cpp" />
+    <ClCompile Include="..\Source\PowerMonitor1.cpp" />
+    <ClCompile Include="..\Source\RainParticleActor.cpp" />
+    <ClCompile Include="..\Source\PenetratorItemActor.cpp" />
+    <ClCompile Include="..\Source\PlayerEffectActor.cpp" />
+    <ClCompile Include="..\Source\LeverGate.cpp" />
+    <ClCompile Include="..\Source\Skinjob.cpp" />
+    <ClCompile Include="..\Source\SceneChangerActor.cpp" />
+    <ClCompile Include="..\Source\SkyBox.cpp" />
+    <ClCompile Include="..\Source\Stage1.cpp" />
+    <ClCompile Include="..\Source\Stage2.cpp" />
+    <ClCompile Include="..\Source\Stage4.cpp" />
+    <ClCompile Include="..\Source\ThrowingBox.cpp" />
+    <ClCompile Include="..\Source\WaitFlyingTask.cpp" />
+    <ClCompile Include="..\Source\GameApp.cpp" />
+    <ClCompile Include="..\Source\GarbageActor.cpp" />
+    <ClCompile Include="..\Source\HanamuraLevel.cpp" />
+    <ClCompile Include="..\Source\HealthPackActor.cpp" />
+    <ClCompile Include="..\Source\FlyingTask.cpp" />
+    <ClCompile Include="..\Source\IdleMoveTask.cpp" />
+    <ClCompile Include="..\Source\InGameUI.cpp" />
+    <ClCompile Include="..\Source\Item.cpp" />
+    <ClCompile Include="..\Source\ItemObjectActor.cpp" />
+    <ClCompile Include="..\Source\LeverBox.cpp" />
+    <ClCompile Include="..\Source\LoverboyActor.cpp" />
+    <ClCompile Include="..\Source\LoverboyBulletActor.cpp" />
+    <ClCompile Include="..\Source\DisperserItemActor.cpp" />
+    <ClCompile Include="..\Source\LoverboyLHActor.cpp" />
+    <ClCompile Include="..\Source\MedKitActor.cpp" />
+    <ClCompile Include="..\Source\MonsterUI.cpp" />
+    <ClCompile Include="..\Source\OutGameUI.cpp" />
+    <ClCompile Include="..\Source\Monster.cpp" />
+    <ClCompile Include="..\Source\MoveTask.cpp" />
+    <ClCompile Include="..\Source\PenetratorActor.cpp" />
+    <ClCompile Include="..\Source\PenetratorBulletActor.cpp" />
+    <ClCompile Include="..\Source\PlayerUI.cpp" />
+    <ClCompile Include="..\Source\Projectile.cpp" />
+    <ClCompile Include="..\Source\Pustule.cpp" />
+    <ClCompile Include="..\Source\Stage3.cpp" />
+    <ClCompile Include="..\Source\SunActor.cpp" />
+    <ClCompile Include="..\Source\RepositionTask.cpp" />
+    <ClCompile Include="..\Source\SyringeActor.cpp" />
+    <ClCompile Include="..\Source\TestBossMonster.cpp" />
+    <ClCompile Include="..\Source\ItemUI.cpp" />
+    <ClCompile Include="..\Source\RadarActor.cpp" />
+    <ClCompile Include="..\Source\RecoveryActor.cpp" />
+    <ClCompile Include="..\Source\SkillActor.cpp" />
+    <ClCompile Include="..\Source\PlayerActor.cpp" />
+    <ClCompile Include="..\Source\TextUI.cpp" />
+    <ClCompile Include="..\Source\TrashCanActor.cpp" />
+    <ClCompile Include="..\Source\WaitTask.cpp" />
+    <ClCompile Include="..\Source\WallBlade.cpp" />
+    <ClCompile Include="..\Source\WallLaser.cpp" />
+    <ClCompile Include="..\Source\WarmechCharge.cpp" />
+    <ClCompile Include="..\Source\WarmechHead.cpp" />
+    <ClCompile Include="..\Source\WarmechLeg.cpp" />
+    <ClCompile Include="..\Source\WarmechSmash.cpp" />
+    <ClCompile Include="..\Source\WeaponActor.cpp" />
+    <ClCompile Include="..\Source\WeaponItemActor.cpp" />
+    <ClCompile Include="..\Source\Mechsect.cpp" />
+    <ClCompile Include="..\Source\WeaponLHActor.cpp" />
+    <ClCompile Include="..\Source\WeaponUI.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

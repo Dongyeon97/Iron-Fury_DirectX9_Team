@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="리소스 파일">
+			<UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+			<Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+		</Filter>
+		<Filter Include="01. Editor">
+			<UniqueIdentifier>{39b2c1e0-c2ef-4920-ba5b-3a26f7296738}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="02. Manager">
+			<UniqueIdentifier>{413b6e8e-a1ff-4868-b707-46801f6f6777}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="02. Manager\01. IMGUI">
+			<UniqueIdentifier>{8871afc8-ece9-4f9a-b8de-f32e3be1e9f0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="03. Level Overrides">
+			<UniqueIdentifier>{87ee26db-aaf0-40d6-a2a8-410899e28746}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="12. Header">
+			<UniqueIdentifier>{7157ff04-0fb4-44be-887c-a5dc5fe6ef93}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="12. Header\01. Default">
+			<UniqueIdentifier>{a7877245-b85c-4702-b56d-bba1de9b9c73}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="12. Header\02. Header">
+			<UniqueIdentifier>{0e8e63b9-9f44-4a34-b4b5-126b6b76f31c}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="03. World Overrides">
+			<UniqueIdentifier>{44f12a7f-d410-4fff-8c89-601ae15408fa}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="04. Window">
+			<UniqueIdentifier>{f612bda5-2759-4b8c-9369-9e270ca542e0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="04. Window\01. Base">
+			<UniqueIdentifier>{046ada92-4346-432f-9f36-e47bc718e031}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="04. Window\02. Mode">
+			<UniqueIdentifier>{2aef137c-ba82-49bc-87bf-6e7a0febd520}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="04. Window\03. Outliner">
+			<UniqueIdentifier>{87df753e-e0f4-486f-979d-f6d94d682ae2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="04. Window\04. Camera">
+			<UniqueIdentifier>{5e7b2d82-37ed-4391-9331-e50f109d2f4d}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="targetver.h">
+			<Filter>12. Header\01. Default</Filter>
+		</ClInclude>
+		<ClInclude Include="framework.h">
+			<Filter>12. Header\01. Default</Filter>
+		</ClInclude>
+		<ClInclude Include="Resource.h">
+			<Filter>12. Header\01. Default</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\Editor.h">
+			<Filter>01. Editor</Filter>
+		</ClInclude>
+		<ClInclude Include="pch.h">
+			<Filter>12. Header\01. Default</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\EditorApp.h">
+			<Filter>01. Editor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\IMGUIManager.h">
+			<Filter>02. Manager\01. IMGUI</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\EditorLevel.h">
+			<Filter>03. Level Overrides</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\EditorWorld.h">
+			<Filter>03. World Overrides</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\Window.h">
+			<Filter>04. Window\01. Base</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\OutlinerWindow.h">
+			<Filter>04. Window\03. Outliner</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\ModeWindow.h">
+			<Filter>04. Window\02. Mode</Filter>
+		</ClInclude>
+		<ClInclude Include="..\Header\EditorCamera.h">
+			<Filter>04. Window\04. Camera</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="Editor.rc">
+			<Filter>리소스 파일</Filter>
+		</ResourceCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Image Include="small.ico">
+			<Filter>리소스 파일</Filter>
+		</Image>
+		<Image Include="Editor.ico">
+			<Filter>리소스 파일</Filter>
+		</Image>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\Source\Editor.cpp">
+			<Filter>01. Editor</Filter>
+		</ClCompile>
+		<ClCompile Include="pch.cpp">
+			<Filter>12. Header\01. Default</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\EditorApp.cpp">
+			<Filter>01. Editor</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\IMGUIManager.cpp">
+			<Filter>02. Manager\01. IMGUI</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\EditorLevel.cpp">
+			<Filter>03. Level Overrides</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\EditorWorld.cpp">
+			<Filter>03. World Overrides</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\Window.cpp">
+			<Filter>04. Window\01. Base</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\OutlinerWindow.cpp">
+			<Filter>04. Window\03. Outliner</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\ModeWindow.cpp">
+			<Filter>04. Window\02. Mode</Filter>
+		</ClCompile>
+		<ClCompile Include="..\Source\EditorCamera.cpp">
+			<Filter>04. Window\04. Camera</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

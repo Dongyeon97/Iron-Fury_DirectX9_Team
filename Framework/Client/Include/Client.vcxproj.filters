@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\Client.cpp">
+      <Filter>01. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameApp.cpp">
+      <Filter>01. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TestBossMonster.cpp">
+      <Filter>03. Actor Overrides\Test\TestBossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SkillActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\05. SkillActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RecoveryActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BulletActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WeaponItemActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\02. WeaponItemActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LoverboyBulletActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\02. LoverboyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HealthPackActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\02. HealthPackActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MedKitActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\05. SkillActor\02. MedkitActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RadarActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\05. SkillActor\03. RadarActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WeaponActor.cpp">
+      <Filter>03. Actor Overrides\03. Weapon\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>12. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OutGameUI.cpp">
+      <Filter>03. Actor Overrides\07. UI\02. OutGameUI\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InGameUI.cpp">
+      <Filter>03. Actor Overrides\07. UI\01. InGameUI\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MonsterUI.cpp">
+      <Filter>03. Actor Overrides\07. UI\02. OutGameUI\03. MonsterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TextUI.cpp">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ArmorUI.cpp" />
+    <ClCompile Include="..\Source\BulletActor.cpp" />
+    <ClCompile Include="..\Source\ChainGunActor.cpp" />
+    <ClCompile Include="..\Source\Client.cpp" />
+    <ClCompile Include="..\Source\DisperserActor.cpp" />
+    <ClCompile Include="..\Source\ElectrifryerActor.cpp" />
+    <ClCompile Include="..\Source\GameApp.cpp" />
+    <ClCompile Include="..\Source\HanamuraLevel.cpp" />
+    <ClCompile Include="..\Source\HealthPackActor.cpp" />
+    <ClCompile Include="..\Source\LoverboyActor.cpp" />
+    <ClCompile Include="..\Source\LoverboyBulletActor.cpp" />
+    <ClCompile Include="..\Source\LoverboyLHActor.cpp" />
+    <ClCompile Include="..\Source\MedKitActor.cpp" />
+    <ClCompile Include="..\Source\PenetratorActor.cpp" />
+    <ClCompile Include="..\Source\PlayerUI.cpp" />
+    <ClCompile Include="..\Source\SunActor.cpp" />
+    <ClCompile Include="..\Source\TestBossMonster.cpp" />
+    <ClCompile Include="..\Source\ItemUI.cpp" />
+    <ClCompile Include="..\Source\RadarActor.cpp" />
+    <ClCompile Include="..\Source\RecoveryActor.cpp" />
+    <ClCompile Include="..\Source\SkillActor.cpp" />
+    <ClCompile Include="..\Source\PlayerActor.cpp" />
+    <ClCompile Include="..\Source\WeaponActor.cpp" />
+    <ClCompile Include="..\Source\WeaponItemActor.cpp" />
+    <ClCompile Include="..\Source\WeaponLHActor.cpp" />
+    <ClCompile Include="..\Source\WeaponUI.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\Source\Item.cpp">
+      <Filter>03. Actor Overrides\06. Item\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SyringeActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\03. SyringeActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ArmorPieceActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\05. ArmorPieceActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ArmorActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\04. ArmorActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WaitTask.cpp">
+      <Filter>04. Task Overrides\01. Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Projectile.cpp">
+      <Filter>03. Actor Overrides\05. Projectile\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WarmechBlade.cpp">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WarmechBullet.cpp">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WarmechMissile.cpp">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LeverBox.cpp" />
+    <ClCompile Include="..\Source\LeverGate.cpp" />
+    <ClCompile Include="..\Source\CardKeyBox.cpp" />
+    <ClCompile Include="..\Source\CardKeyGate.cpp" />
+    <ClCompile Include="..\Source\ElevatorKeyBox1.cpp" />
+    <ClCompile Include="..\Source\ElevatorFloor.cpp" />
+    <ClCompile Include="..\Source\DisperserBulletActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\03. DisperserBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PenetratorBulletActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\04. PenetratorBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ChainGunBulletActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\05. ChainGunBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ItemObjectActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\06. ItemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GarbageActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\06. ItemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TrashCanActor.cpp">
+      <Filter>03. Actor Overrides\06. Item\06. ItemObject\TrashCan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Stage1.cpp">
+      <Filter>02. Level Overrides</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Stage3.cpp">
+      <Filter>02. Level Overrides</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WarmechHead.cpp">
+      <Filter>03. Actor Overrides\02. Monster\02. Boss\01. Warmech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WarmechLeg.cpp">
+      <Filter>03. Actor Overrides\02. Monster\02. Boss\01. Warmech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Deacon.cpp">
+      <Filter>03. Actor Overrides\02. Monster\03. Deacon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\AttackTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DeadTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MoveTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RepositionTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HanamuraLevel.cpp">
+      <Filter>02. Level Overrides</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Cultist.cpp">
+      <Filter>03. Actor Overrides\02. Monster\04. Cultist</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WaitFlyingTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FlyingTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ElectrifryerActor.cpp">
+      <Filter>03. Actor Overrides\03. Weapon\02. Electrifryer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DisperserActor.cpp">
+      <Filter>03. Actor Overrides\03. Weapon\04. Disperser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PenetratorActor.cpp">
+      <Filter>03. Actor Overrides\03. Weapon\05. Penetrator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ChainGunActor.cpp">
+      <Filter>03. Actor Overrides\03. Weapon\06. ChainGun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LoverboyLHActor.cpp">
+      <Filter>03. Actor Overrides\04. WeaponLH\02. LoverboyLH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LoverboyActor.cpp">
+      <Filter>03. Actor Overrides\03. Weapon\03. Loverboy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\IdleMoveTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Mechsect.cpp">
+      <Filter>03. Actor Overrides\02. Monster\05. Mechsect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WeaponLHActor.cpp">
+      <Filter>03. Actor Overrides\04. WeaponLH\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Skinjob.cpp">
+      <Filter>03. Actor Overrides\02. Monster\02. Boss\02. Skinjob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Stage4.cpp">
+      <Filter>02. Level Overrides</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pustule.cpp">
+      <Filter>03. Actor Overrides\02. Monster\06. Pustule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WallBlade.cpp">
+      <Filter>03. Actor Overrides\09. Gimmick\01. Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WallLaser.cpp">
+      <Filter>03. Actor Overrides\09. Gimmick\01. Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FloatingBox.cpp">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FlameEmitter.cpp">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LaserEmitter.cpp">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\AcidWater.cpp">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WeaponUI.cpp">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PlayerUI.cpp">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ItemUI.cpp">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ArmorUI.cpp">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ThrowingBox.cpp">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneChangerActor.cpp">
+      <Filter>03. Actor Overrides\11. Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RainParticleActor.cpp">
+      <Filter>03. Actor Overrides\10. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ChainGunItemActor.cpp" />
+    <ClCompile Include="..\Source\PenetratorItemActor.cpp" />
+    <ClCompile Include="..\Source\DisperserItemActor.cpp" />
+    <ClCompile Include="..\Source\Monster.cpp" />
+    <ClCompile Include="..\Source\WarmechBomb.cpp">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Monster.cpp">
+      <Filter>03. Actor Overrides\02. Monster\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FinalGate.cpp" />
+    <ClCompile Include="..\Source\FinalGateBox.cpp" />
+    <ClCompile Include="..\Source\PowerMonitor.cpp" />
+    <ClCompile Include="..\Source\SkyBox.cpp" />
+    <ClCompile Include="..\Source\WarmechCharge.cpp">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WarmechSmash.cpp">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PlayerEffectActor.cpp">
+      <Filter>03. Actor Overrides\08. Effect\02. PlayerEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PowerMonitor1.cpp" />
+    <ClCompile Include="..\Header\BossTrigger.cpp">
+      <Filter>03. Actor Overrides\11. Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Stage2.cpp">
+      <Filter>02. Level Overrides</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PlayerActor.cpp">
+      <Filter>03. Actor Overrides\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SetStateTask.cpp">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ElevatorKeyBox.cpp" />
+    <ClCompile Include="..\Source\CardKeyActor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\Client.h">
+      <Filter>01. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GameApp.h">
+      <Filter>01. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TestBossMonster.h">
+      <Filter>03. Actor Overrides\Test\TestBossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkillActor.h">
+      <Filter>03. Actor Overrides\06. Item\05. SkillActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RecoveryActor.h">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BulletActor.h">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponItemActor.h">
+      <Filter>03. Actor Overrides\06. Item\02. WeaponItemActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoverboyBulletActor.h">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\02. LoverboyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MedKitActor.h">
+      <Filter>03. Actor Overrides\06. Item\05. SkillActor\02. MedkitActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RadarActor.h">
+      <Filter>03. Actor Overrides\06. Item\05. SkillActor\03. RadarActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponActor.h">
+      <Filter>03. Actor Overrides\03. Weapon\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>12. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\OutGameUI.h">
+      <Filter>03. Actor Overrides\07. UI\02. OutGameUI\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\InGameUI.h">
+      <Filter>03. Actor Overrides\07. UI\01. InGameUI\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterUI.h">
+      <Filter>03. Actor Overrides\07. UI\02. OutGameUI\03. MonsterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TextUI.h">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ArmorUI.h" />
+    <ClInclude Include="..\Header\BulletActor.h" />
+    <ClInclude Include="..\Header\ChainGunActor.h" />
+    <ClInclude Include="..\Header\Client.h" />
+    <ClInclude Include="..\Header\DisperserActor.h" />
+    <ClInclude Include="..\Header\ElectrifryerActor.h" />
+    <ClInclude Include="..\Header\GameApp.h" />
+    <ClInclude Include="..\Header\HanamuraLevel.h" />
+    <ClInclude Include="..\Header\HealthPackActor.h" />
+    <ClInclude Include="..\Header\LoverboyActor.h" />
+    <ClInclude Include="..\Header\LoverboyBulletActor.h" />
+    <ClInclude Include="..\Header\LoverboyLHActor.h" />
+    <ClInclude Include="..\Header\MedKitActor.h" />
+    <ClInclude Include="..\Header\PenetratorActor.h" />
+    <ClInclude Include="..\Header\PlayerUI.h" />
+    <ClInclude Include="..\Header\SunActor.h" />
+    <ClInclude Include="..\Header\TestBossMonster.h" />
+    <ClInclude Include="..\Header\ItemUI.h" />
+    <ClInclude Include="..\Header\RadarActor.h" />
+    <ClInclude Include="..\Header\RecoveryActor.h" />
+    <ClInclude Include="..\Header\SkillActor.h" />
+    <ClInclude Include="..\Header\PlayerActor.h" />
+    <ClInclude Include="..\Header\WeaponActor.h" />
+    <ClInclude Include="..\Header\WeaponItemActor.h" />
+    <ClInclude Include="..\Header\WeaponLHActor.h" />
+    <ClInclude Include="..\Header\WeaponUI.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\Header\Item.h">
+      <Filter>03. Actor Overrides\06. Item\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SyringeActor.h">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\03. SyringeActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HealthPackActor.h">
+      <Filter>03. Actor Overrides\Item\04. RecoveryActor\02. HealthPackActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ArmorPieceActor.h">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\05. ArmorPieceActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ArmorActor.h">
+      <Filter>03. Actor Overrides\06. Item\04. RecoveryActor\04. ArmorActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DisperserBulletActor.h">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\03. DisperserBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PenetratorBulletActor.h">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\04. PenetratorBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ChainGunBulletActor.h">
+      <Filter>03. Actor Overrides\06. Item\03. BulletActor\05. ChainGunBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemObjectActor.h">
+      <Filter>03. Actor Overrides\06. Item\06. ItemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GarbageActor.h">
+      <Filter>03. Actor Overrides\06. Item\06. ItemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TrashCanActor.h">
+      <Filter>03. Actor Overrides\06. Item\06. ItemObject\TrashCan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Projectile.h" />
+    <ClInclude Include="..\Header\MoveTask.h">
+      <Filter>04. Task Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WaitTask.h">
+      <Filter>04. Task Overrides\01. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Projectile.h">
+      <Filter>03. Actor Overrides\05. Projectile\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WarmechBlade.h">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WarmechBullet.h">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WarmechMissile.h">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LeverBox.h" />
+    <ClInclude Include="..\Header\LeverGate.h" />
+    <ClInclude Include="..\Header\CardKeyBox.h" />
+    <ClInclude Include="..\Header\CardKeyGate.h" />
+    <ClInclude Include="..\Header\ElevatorKeyBox1.h" />
+    <ClInclude Include="..\Header\ElevatorFloor.h" />
+    <ClInclude Include="..\Header\Stage1.h">
+      <Filter>02. Level Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Stage3.h">
+      <Filter>02. Level Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WarmechHead.h">
+      <Filter>03. Actor Overrides\02. Monster\02. Boss\01. Warmech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WarmechLeg.h">
+      <Filter>03. Actor Overrides\02. Monster\02. Boss\01. Warmech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Deacon.h">
+      <Filter>03. Actor Overrides\02. Monster\03. Deacon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AttackTask.h">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DeadTask.h">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MoveTask.h">
+      <Filter>04. Task Overrides\03. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RepositionTask.h">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HanamuraLevel.h">
+      <Filter>02. Level Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Cultist.h">
+      <Filter>03. Actor Overrides\02. Monster\04. Cultist</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WaitFlyingTask.h">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FlyingTask.h">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>12. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ElectrifryerActor.h">
+      <Filter>03. Actor Overrides\03. Weapon\02. Electrifryer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DisperserActor.h">
+      <Filter>03. Actor Overrides\03. Weapon\04. Disperser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PenetratorActor.h">
+      <Filter>03. Actor Overrides\03. Weapon\05. Penetrator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ChainGunActor.h">
+      <Filter>03. Actor Overrides\03. Weapon\06. ChainGun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoverboyLHActor.h">
+      <Filter>03. Actor Overrides\04. WeaponLH\02. LoverboyLH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoverboyActor.h">
+      <Filter>03. Actor Overrides\03. Weapon\03. Loverboy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\IdleMoveTask.h">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Mechsect.h">
+      <Filter>03. Actor Overrides\02. Monster\05. Mechsect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponLHActor.h">
+      <Filter>03. Actor Overrides\04. WeaponLH\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Skinjob.h">
+      <Filter>03. Actor Overrides\02. Monster\02. Boss\02. Skinjob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Stage4.h">
+      <Filter>02. Level Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Pustule.h">
+      <Filter>03. Actor Overrides\02. Monster\06. Pustule</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallLaser.h">
+      <Filter>03. Actor Overrides\09. Gimmick\01. Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallBlade.h">
+      <Filter>03. Actor Overrides\09. Gimmick\01. Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FloatingBox.h">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FlameEmitter.h">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LaserEmitter.h">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AcidWater.h">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponUI.h">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerUI.h">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemUI.h">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ArmorUI.h">
+      <Filter>03. Actor Overrides\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ThrowingBox.h">
+      <Filter>03. Actor Overrides\09. Gimmick\02. Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SceneChangerActor.h">
+      <Filter>03. Actor Overrides\11. Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RainParticleActor.h">
+      <Filter>03. Actor Overrides\10. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ChainGunItemActor.h" />
+    <ClInclude Include="..\Header\PenetratorItemActor.h" />
+    <ClInclude Include="..\Header\DisperserItemActor.h" />
+    <ClInclude Include="..\Header\Monster.h" />
+    <ClInclude Include="..\Header\WarmechBomb.h">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster.h">
+      <Filter>03. Actor Overrides\02. Monster\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FinalGate.h" />
+    <ClInclude Include="..\Header\FinalGateBox.h" />
+    <ClInclude Include="..\Header\PowerMonitor.h" />
+    <ClInclude Include="..\Header\SkyBox.h" />
+    <ClInclude Include="..\Header\WarmechCharge.h">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WarmechSmash.h">
+      <Filter>03. Actor Overrides\05. Projectile\02. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerEffectActor.h">
+      <Filter>03. Actor Overrides\08. Effect\02. PlayerEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PowerMonitor1.h" />
+    <ClInclude Include="..\Header\BossTrigger.h">
+      <Filter>03. Actor Overrides\11. Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Stage2.h">
+      <Filter>02. Level Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerActor.h">
+      <Filter>03. Actor Overrides\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SetStateTask.h">
+      <Filter>04. Task Overrides\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerParticleActor.h" />
+    <ClInclude Include="..\Header\ElevatorKeyBox.h" />
+    <ClInclude Include="..\Header\CardKeyActor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01. Game">
+      <UniqueIdentifier>{77dd3f01-2b13-42ac-a00c-8fdbba72ed0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides">
+      <UniqueIdentifier>{2edd8e37-dab9-4ce5-b614-9c264161d33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{49d729ff-56a8-4a4d-95e5-6cba5de0dfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. Header">
+      <UniqueIdentifier>{2ce11b2a-ecd9-441d-94e0-2229ece1db4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. Header">
+      <UniqueIdentifier>{2ce11b2a-ecd9-441d-94e0-2229ece1db4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\Test">
+      <UniqueIdentifier>{4c3c692a-2847-41a4-8d99-3bf3f1f58f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\Test\TestBossMonster">
+      <UniqueIdentifier>{0be42a6f-3951-449e-b7da-f0733a11cac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. Header" />
+    <Filter Include="04. Task Overrides">
+      <UniqueIdentifier>{08650461-3b8a-4afc-91a9-072f163075ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Task Overrides\01. Common">
+      <UniqueIdentifier>{452638b6-7a74-4bed-9093-a47c6b1be5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\05. Projectile">
+      <UniqueIdentifier>{93e3f19d-03fe-4329-aeff-8746b53daa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\05. Projectile\01. Base">
+      <UniqueIdentifier>{540dca64-45b7-424d-8911-bfe959aa1646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\05. Projectile\02. Boss">
+      <UniqueIdentifier>{99a3e4e1-41d2-4114-86ef-68c251f45a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\01. Player">
+      <UniqueIdentifier>{e9c1893c-f6e2-4be4-8cb3-0c95c1b786b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\09. Gimmick">
+      <UniqueIdentifier>{5904d419-0b06-472e-b4cc-6cbf8eff6338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item">
+      <UniqueIdentifier>{7fd39417-d06d-464e-8460-740c41a807ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\01. Base">
+      <UniqueIdentifier>{484d1215-5eef-4ecd-b5e6-9566d5f16087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\02. WeaponItemActor">
+      <UniqueIdentifier>{76235fa3-6905-4f98-bd12-74241c2768ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\02. WeaponItemActor\01. Base">
+      <UniqueIdentifier>{3c6929f1-6ca2-4e2d-b057-14902cce6b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\02. WeaponItemActor\02. LoverboyItemActor">
+      <UniqueIdentifier>{41fd95aa-7974-43c1-bc8e-d58e68511ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\03. BulletActor">
+      <UniqueIdentifier>{90d7ddaa-f622-41c3-a0f9-829cceb2a458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\03. BulletActor\01. Base">
+      <UniqueIdentifier>{f20f66ea-c29f-4981-88b6-e0a7c2f8f62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\03. BulletActor\02. LoverboyBullet">
+      <UniqueIdentifier>{204f1eac-0774-47f2-9869-e4f14240daba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\03. BulletActor\03. DisperserBullet">
+      <UniqueIdentifier>{a2a53c14-2fb2-4191-ae33-8acb3c5bc408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\03. BulletActor\04. PenetratorBullet">
+      <UniqueIdentifier>{8fa994de-84d1-4bda-af24-ccf6d8007e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\03. BulletActor\05. ChainGunBullet">
+      <UniqueIdentifier>{54f382d0-96d7-458c-bd3f-43d5979a8433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\04. RecoveryActor">
+      <UniqueIdentifier>{0f0db3ad-d173-4c15-a2c0-46f1ab6c9d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\04. RecoveryActor\01. Base">
+      <UniqueIdentifier>{d19b19ae-62a7-4ae7-9f8b-97afc344d1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\04. RecoveryActor\02. HealthPackActor">
+      <UniqueIdentifier>{46eb6b10-d8f1-4f67-9fec-3cb3932026af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\04. RecoveryActor\03. SyringeActor">
+      <UniqueIdentifier>{c1356bad-8857-441f-b0a4-02db7ce25e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\04. RecoveryActor\04. ArmorActor">
+      <UniqueIdentifier>{a081cd00-9198-42d5-856e-47a437bb5dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\04. RecoveryActor\05. ArmorPieceActor">
+      <UniqueIdentifier>{45d33c9e-db2b-4490-8fd3-afa77bdee430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\05. SkillActor">
+      <UniqueIdentifier>{f637c6af-0e8e-40e8-bc58-7ce4f516693a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\05. SkillActor\01. Base">
+      <UniqueIdentifier>{46c0a701-0d7d-4118-bc06-f51a7ba3b9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\05. SkillActor\02. MedkitActor">
+      <UniqueIdentifier>{c0f3d228-37ea-413a-915a-dee901274ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\05. SkillActor\03. RadarActor">
+      <UniqueIdentifier>{aa817f35-4793-4652-ac79-c242d43671e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\06. ItemObject">
+      <UniqueIdentifier>{a700089f-4335-47d3-b171-1b17a36f7c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\06. Item\06. ItemObject\TrashCan">
+      <UniqueIdentifier>{5a8ecb63-7f49-4e1f-b4ce-f4de3aaa120c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\07. UI">
+      <UniqueIdentifier>{9c753165-3db8-4294-8039-dbe462ec1cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\07. UI\01. InGameUI">
+      <UniqueIdentifier>{53a03e8a-996f-425c-94d4-bbb6ae88f40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\07. UI\01. InGameUI\01. Base">
+      <UniqueIdentifier>{124727f9-a54d-421c-9c5d-15e8803c8298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\07. UI\02. OutGameUI">
+      <UniqueIdentifier>{56df300e-5dbd-46bb-a9fc-4b5d843208f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\07. UI\02. OutGameUI\01. Base">
+      <UniqueIdentifier>{65e9162a-c6a9-4eb1-a86c-bc0d5c48154d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\07. UI\02. OutGameUI\02. PlayerUI">
+      <UniqueIdentifier>{a4a0e3a5-54db-4c8e-9e6e-106bdf6ba3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\07. UI\02. OutGameUI\03. MonsterUI">
+      <UniqueIdentifier>{ada7e35d-65a7-47d0-8ff4-a5e366eb4e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\08. Effect">
+      <UniqueIdentifier>{5120ddf0-8b7a-44da-86e1-7f6b8105ce6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\09. Gimmick\01. Stage3">
+      <UniqueIdentifier>{b01cef0c-8630-49be-ac77-809d313442bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\09. Gimmick\02. Stage4">
+      <UniqueIdentifier>{d5019386-79e5-4c0b-b9cc-011ecbcaea66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Level Overrides">
+      <UniqueIdentifier>{52a9e4cb-891e-4e69-b14b-5bb3a3498ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\03. Weapon">
+      <UniqueIdentifier>{d8de0e72-8482-40b7-91fd-17f2727405a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\03. Weapon\01. Base">
+      <UniqueIdentifier>{f37950f0-737e-4463-ab1a-5a9f178830ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\03. Weapon\02. Electrifryer">
+      <UniqueIdentifier>{d1ba68b2-0240-4ba6-9254-4e6301b9bd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\03. Weapon\03. Loverboy">
+      <UniqueIdentifier>{b6b69519-4e41-4880-b049-e39c85862f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\03. Weapon\04. Disperser">
+      <UniqueIdentifier>{87dba48a-fc5c-45e3-ae11-c9967d92299f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\03. Weapon\05. Penetrator" />
+    <Filter Include="03. Actor Overrides\03. Weapon\06. ChainGun">
+      <UniqueIdentifier>{cba03e6e-0d74-428f-b3cf-3906dd46d5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\04. WeaponLH">
+      <UniqueIdentifier>{8113514e-3db4-4cab-93e7-ebf00a7cb5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\04. WeaponLH\01. Base">
+      <UniqueIdentifier>{5e81816b-0b5f-45ec-8dcf-7a2dc417b2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\04. WeaponLH\02. LoverboyLH">
+      <UniqueIdentifier>{ab285f6d-cbb7-491c-a33e-8bb8770a61fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster">
+      <UniqueIdentifier>{fdde5622-3df1-47d8-a41e-74ca6eb68a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\01. Base">
+      <UniqueIdentifier>{52962d45-7424-4aaf-baa7-c6b1069fe330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\02. Boss">
+      <UniqueIdentifier>{2879684a-f8bb-4ae2-bd64-81d12a3abadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\02. Boss\01. Warmech">
+      <UniqueIdentifier>{51cf2aee-fc09-4fbc-aff3-0adda9798f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\02. Boss\02. Skinjob">
+      <UniqueIdentifier>{f50f7e79-6cbe-4d2f-9bd6-3a2f345d75de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\03. Deacon">
+      <UniqueIdentifier>{991dd83d-eba5-440e-bca3-b27cd85c0cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\04. Cultist">
+      <UniqueIdentifier>{7ebe2a35-39fb-4ed0-b395-2ed6a8942e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\05. Mechsect">
+      <UniqueIdentifier>{5acc239c-6291-4b7c-89d0-8f58a8c4bfe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\02. Monster\06. Pustule">
+      <UniqueIdentifier>{28189fc0-f285-4ec9-918a-d7f4b3a30572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\10. Particle">
+      <UniqueIdentifier>{ae043ba6-e6ea-43fd-9ac2-1db52148d637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\08. Effect\02. PlayerEffect">
+      <UniqueIdentifier>{c3f22490-ea5c-4b9d-8411-b7c8def323d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\11. Trigger">
+      <UniqueIdentifier>{90a51e88-2251-4c4c-bacc-d49ad913b302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Actor Overrides\12. Env">
+      <UniqueIdentifier>{67ab00f2-d7a6-435d-8db3-168fda8ada05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Task Overrides\02. Monster">
+      <UniqueIdentifier>{64dd8c59-f41b-4eaa-baba-cdc30c0b3c5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\Client.h">
+      <Filter>01. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>12. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GameApp.h">
+      <Filter>01. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HanamuraLevel.h">
+      <Filter>02. Level Overrides</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerActor.h">
+      <Filter>03. Actor Overrides\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemUI.h">
+      <Filter>03. Actor Overrides\UI\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TestBossMonster.h">
+      <Filter>03. Actor Overrides\Test\TestBossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster.h">
+      <Filter>03. Actor Overrides\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponItemActor.h">
+      <Filter>03. Actor Overrides\Item\02. WeaponItemActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BulletActor.h">
+      <Filter>03. Actor Overrides\Item\03. BulletActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoverboyBulletActor.h">
+      <Filter>03. Actor Overrides\Item\03. BulletActor\02. LoverboyBulletActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponActor.h">
+      <Filter>03. Actor Overrides\Weapon\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RecoveryActor.h">
+      <Filter>03. Actor Overrides\Item\04. RecoveryActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HealthPackActor.h">
+      <Filter>03. Actor Overrides\Item\04. RecoveryActor\02. HealthPackActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkillActor.h">
+      <Filter>03. Actor Overrides\Item\05. SkillActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RadarActor.h">
+      <Filter>03. Actor Overrides\Item\05. SkillActor\03. RadarActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MedKitActor.h">
+      <Filter>03. Actor Overrides\Item\05. SkillActor\02. MedKitActor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerActor.h">
+      <Filter>03. Actor Overrides\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoverboyActor.h">
+      <Filter>03. Actor Overrides\Weapon\03. Loverboy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ArmorUI.h">
+      <Filter>03. Actor Overrides\UI\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WeaponUI.h">
+      <Filter>03. Actor Overrides\UI\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerUI.h">
+      <Filter>03. Actor Overrides\UI\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Client.cpp">
+      <Filter>01. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>12. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameApp.cpp">
+      <Filter>01. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HanamuraLevel.cpp">
+      <Filter>02. Level Overrides</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PlayerActor.cpp">
+      <Filter>03. Actor Overrides\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ItemUI.cpp">
+      <Filter>03. Actor Overrides\UI\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TestBossMonster.cpp">
+      <Filter>03. Actor Overrides\Test\TestBossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Monster.cpp">
+      <Filter>03. Actor Overrides\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WeaponItemActor.cpp">
+      <Filter>03. Actor Overrides\Item\02. WeaponItemActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BulletActor.cpp">
+      <Filter>03. Actor Overrides\Item\03. BulletActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LoverboyBulletActor.cpp">
+      <Filter>03. Actor Overrides\Item\03. BulletActor\02. LoverboyBulletActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WeaponActor.cpp">
+      <Filter>03. Actor Overrides\Weapon\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RecoveryActor.cpp">
+      <Filter>03. Actor Overrides\Item\04. RecoveryActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HealthPackActor.cpp">
+      <Filter>03. Actor Overrides\Item\04. RecoveryActor\02. HealthPackActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SkillActor.cpp">
+      <Filter>03. Actor Overrides\Item\05. SkillActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RadarActor.cpp">
+      <Filter>03. Actor Overrides\Item\05. SkillActor\03. RadarActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MedKitActor.cpp">
+      <Filter>03. Actor Overrides\Item\05. SkillActor\02. MedKitActor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LoverboyActor.cpp">
+      <Filter>03. Actor Overrides\Weapon\03. Loverboy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ArmorUI.cpp">
+      <Filter>03. Actor Overrides\UI\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WeaponUI.cpp">
+      <Filter>03. Actor Overrides\UI\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PlayerUI.cpp">
+      <Filter>03. Actor Overrides\UI\Player</Filter>
+    </ClCompile>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+</Project>

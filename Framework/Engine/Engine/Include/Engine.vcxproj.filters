@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\AnimationComponent.cpp" />
+    <ClCompile Include="..\Source\DirectionalLightComponent.cpp" />
+    <ClCompile Include="..\Source\EffectComponent.cpp" />
+    <ClCompile Include="..\Source\InteractiveUIComponent.cpp" />
+    <ClCompile Include="..\Source\NonInteractiveUIComponent.cpp" />
+    <ClCompile Include="..\Source\SelectionButtonUIComponent.cpp" />
+    <ClCompile Include="..\Source\SpriteUIComponent.cpp" />
+    <ClCompile Include="..\Source\TextUI.cpp" />
+    <ClCompile Include="..\Source\TextUIComponent.cpp" />
+    <ClCompile Include="..\Source\Actor.cpp">
+      <Filter>03. Object\02. Actor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ActorComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BehaviorTreeComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\02. BahaviorTreeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BlackBoardComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\03. BlackBoardComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BTNode.cpp">
+      <Filter>03. Object\04. BTNode\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BTCompositeNode.cpp">
+      <Filter>03. Object\04. BTNode\02. Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BTTaskNode.cpp">
+      <Filter>03. Object\04. BTNode\04. Task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BTDecorator.cpp">
+      <Filter>03. Object\04. BTNode\03. Decorator\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BTBlackBoardDecorator.cpp">
+      <Filter>03. Object\04. BTNode\03. Decorator\02. BBDeco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CubeColliderActor.cpp">
+      <Filter>03. Object\02. Actor\02. CubeColliderActor\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Creature.cpp">
+      <Filter>03. Object\02. Actor\02. CubeColliderActor\02. Creature\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Character.cpp">
+      <Filter>03. Object\02. Actor\02. CubeColliderActor\02. Creature\02. Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DeviceManager.cpp">
+      <Filter>01. Manager\01. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FontManager.cpp">
+      <Filter>01. Manager\03. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Font.cpp">
+      <Filter>01. Manager\03. Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FrameManager.cpp">
+      <Filter>01. Manager\02. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Frame.cpp">
+      <Filter>01. Manager\02. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Timer.cpp">
+      <Filter>01. Manager\04. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TimerManager.cpp">
+      <Filter>01. Manager\04. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SpawnManager.cpp">
+      <Filter>01. Manager\05. Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PrefabManager.cpp">
+      <Filter>01. Manager\06. Prefab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CollisionManager.cpp">
+      <Filter>01. Manager\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PrimitiveComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\MeshComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RectangleMeshComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\02. RectMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CubeMeshComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\03. CubeMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CameraComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ColliderComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SensorComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\05. SensorComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\World.cpp">
+      <Filter>02. Engine\01. World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Object.cpp">
+      <Filter>03. Object\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Level.cpp">
+      <Filter>02. Engine\02. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SkyboxComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\04. Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InputManager.cpp">
+      <Filter>01. Manager\09. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ResourceManager.cpp">
+      <Filter>01. Manager\10. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameManager.cpp">
+      <Filter>01. Manager\08. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePCH.cpp">
+      <Filter>04. Header\01. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>04. Header\01. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RenderManager.cpp">
+      <Filter>01. Manager\11. Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoundManager.cpp">
+      <Filter>01. Manager\12. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InputComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\06. InputComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CubeColliderComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RectColliderComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SphereColliderComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InteractiveBox.cpp" />
+    <ClCompile Include="..\Source\AnimationComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\05. Animation\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\EffectComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\05. Animation\02. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\UI.cpp">
+      <Filter>03. Object\02. Actor\03. UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LightComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DirectionalLightComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\02. Directional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicsComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\07. PhysicsComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SoundComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\08. SoundComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SpringArmComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\05. SpringArm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ParticleComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\04. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PointLightComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\04. Point</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SpotLightComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\03. Spot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LandscapeComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\05. Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InteractiveBox.cpp" />
+    <ClCompile Include="..\Source\UIComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\01. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\NonInteractiveUIComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\03. Non Interactive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InteractiveUIComponent.cpp">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\02. Interactive</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\AnimationComponent.h" />
+    <ClInclude Include="..\Header\DirectionalLightComponent.h" />
+    <ClInclude Include="..\Header\EffectComponent.h" />
+    <ClInclude Include="..\Header\SelectionButtonUIComponent.h" />
+    <ClInclude Include="..\Header\SpriteUIComponent.h" />
+    <ClInclude Include="..\Header\TextUI.h" />
+    <ClInclude Include="..\Header\TextUIComponent.h" />
+    <ClInclude Include="..\Header\Actor.h">
+      <Filter>03. Object\02. Actor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ActorComponent.h">
+      <Filter>03. Object\03. ActorComponent\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BehaviorTreeComponent.h">
+      <Filter>03. Object\03. ActorComponent\02. BahaviorTreeComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BlackBoardComponent.h">
+      <Filter>03. Object\03. ActorComponent\03. BlackBoardComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BTNode.h">
+      <Filter>03. Object\04. BTNode\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BTCompositeNode.h">
+      <Filter>03. Object\04. BTNode\02. Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BTTaskNode.h">
+      <Filter>03. Object\04. BTNode\04. Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BTDecorator.h">
+      <Filter>03. Object\04. BTNode\03. Decorator\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BTBlackBoardDecorator.h">
+      <Filter>03. Object\04. BTNode\03. Decorator\02. BBDeco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeColliderActor.h">
+      <Filter>03. Object\02. Actor\02. CubeColliderActor\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Creature.h">
+      <Filter>03. Object\02. Actor\02. CubeColliderActor\02. Creature\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Character.h">
+      <Filter>03. Object\02. Actor\02. CubeColliderActor\02. Creature\02. Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DeviceManager.h">
+      <Filter>01. Manager\01. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Font.h">
+      <Filter>01. Manager\03. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FontManager.h">
+      <Filter>01. Manager\03. Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FrameManager.h">
+      <Filter>01. Manager\02. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Frame.h">
+      <Filter>01. Manager\02. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Timer.h">
+      <Filter>01. Manager\04. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TimerManager.h">
+      <Filter>01. Manager\04. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SceneComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SpawnManager.h">
+      <Filter>01. Manager\05. Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PrefabManager.h">
+      <Filter>01. Manager\06. Prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CollisionManager.h">
+      <Filter>01. Manager\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PrimitiveComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MeshComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RectangleMeshComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\02. RectMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeMeshComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\03. CubeMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CameraComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ColliderComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SensorComponent.h">
+      <Filter>03. Object\03. ActorComponent\05. SensorComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\World.h">
+      <Filter>02. Engine\01. World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Object.h">
+      <Filter>03. Object\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Level.h">
+      <Filter>02. Engine\02. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkyboxComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\04. Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\InputManager.h">
+      <Filter>01. Manager\09. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ResourceManager.h">
+      <Filter>01. Manager\10. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GameManager.h">
+      <Filter>01. Manager\08. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>04. Header\01. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePCH.h">
+      <Filter>04. Header\01. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Enums.h">
+      <Filter>04. Header\02. Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Funcs.h">
+      <Filter>04. Header\02. Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Macros.h">
+      <Filter>04. Header\02. Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>04. Header\01. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Structs.h">
+      <Filter>04. Header\02. Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RenderManager.h">
+      <Filter>01. Manager\11. Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SoundManager.h">
+      <Filter>01. Manager\12. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\InputComponent.h">
+      <Filter>03. Object\03. ActorComponent\06. InputComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CubeColliderComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RectColliderComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SphereColliderComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\InteractiveBox.h" />
+    <ClInclude Include="..\Header\AnimationComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\05. Animation\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\EffectComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\05. Animation\02. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UI.h">
+      <Filter>03. Object\02. Actor\03. UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DirectionalLightComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\02. Directional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PhysicsComponent.h">
+      <Filter>03. Object\03. ActorComponent\07. PhysicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SoundComponent.h">
+      <Filter>03. Object\03. ActorComponent\08. SoundComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SpringArmComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\05. SpringArm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ParticleComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\04. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Types.h">
+      <Filter>04. Header\02. Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PointLightComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\04. Point</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SpotLightComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\04. Light\03. Spot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LandscapeComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\05. Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\InteractiveBox.h" />
+    <ClInclude Include="..\Header\UIComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\01. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NonInteractiveUIComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\03. Non Interactive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\InteractiveUIComponent.h">
+      <Filter>03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\02. Interactive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{185e06ee-8375-40dd-8311-ddbe948e5550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\01. Device">
+      <UniqueIdentifier>{8c9eb6e9-8447-49fa-b5f3-0c8b52faa264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\03. Font">
+      <UniqueIdentifier>{30f0cd7e-7e19-4989-a115-a5930e8bba77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\02. Frame">
+      <UniqueIdentifier>{78fc09b2-32b8-4bbb-9957-17de833f4f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\04. Timer">
+      <UniqueIdentifier>{d81a28f3-609a-4220-9627-4ec894a4c424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\05. Spawn">
+      <UniqueIdentifier>{cb847d0d-ba9e-44da-8b24-8b7a61d04a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\06. Prefab">
+      <UniqueIdentifier>{8c62195f-28aa-441a-9e4a-2337ef091cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\07. Collision">
+      <UniqueIdentifier>{4de35e2c-9090-4f46-b402-a2e6c333e4ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\08. Game">
+      <UniqueIdentifier>{5fe4e22f-85bb-426f-a2c7-d1683f58fcb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Header">
+      <UniqueIdentifier>{27c5b7f0-60b1-406f-8335-27138c007e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object">
+      <UniqueIdentifier>{aadbab00-af46-4d86-a856-aa79c133569b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\01. Base">
+      <UniqueIdentifier>{8ea754d4-cd11-46e5-af6b-3a357b2df377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor">
+      <UniqueIdentifier>{854730b0-7d50-467c-8979-65767c8ab74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor\01. Base">
+      <UniqueIdentifier>{210ce0a0-8423-490e-96b8-e504ccf9018f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor\02. CubeColliderActor">
+      <UniqueIdentifier>{39c3804f-9454-4a97-82ce-12956c8a525d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor\02. CubeColliderActor\01. Base">
+      <UniqueIdentifier>{1e147f67-9fa6-4bb1-8e14-2ea2a0300d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor\02. CubeColliderActor\02. Creature">
+      <UniqueIdentifier>{0fb6f6fa-9d00-4f3c-bd4b-523772ca38ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor\02. CubeColliderActor\02. Creature\01. Base">
+      <UniqueIdentifier>{f9c3e361-2397-4e3b-ac27-5ee468de78b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor\02. CubeColliderActor\02. Creature\02. Character">
+      <UniqueIdentifier>{5693019c-c979-4789-90d7-3a53e8899548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent">
+      <UniqueIdentifier>{c8afa038-be55-473f-8a41-ead74bc45916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\01. Base">
+      <UniqueIdentifier>{cd27a93e-4e33-488a-ba1b-6adeb252018c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\02. BahaviorTreeComponent">
+      <UniqueIdentifier>{3df29432-4bd8-426a-9d81-ed4bfb259150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\03. BlackBoardComponent">
+      <UniqueIdentifier>{664eef39-8777-4593-b83f-ad44fe30af8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent">
+      <UniqueIdentifier>{66225c43-b0be-47a4-9be6-092c142097a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\01. Base">
+      <UniqueIdentifier>{20f177c3-1170-4afe-8a56-5772b228a9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive">
+      <UniqueIdentifier>{9dcdec07-4d00-4e82-b6f6-b52f9cffb62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\01. Base">
+      <UniqueIdentifier>{e7b8aca6-00e3-4129-b779-06be8aa82cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh">
+      <UniqueIdentifier>{d1114124-6db0-451a-afda-9b9bc0e07f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\01. Base">
+      <UniqueIdentifier>{44525597-7d7a-46be-95f1-92b8838175c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\02. RectMesh">
+      <UniqueIdentifier>{9cf53468-c51d-44c0-89b7-0dc8e9c2bae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\03. CubeMesh">
+      <UniqueIdentifier>{d3168c1a-b6b9-41d9-9a97-062050fc5947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\03. Collider">
+      <UniqueIdentifier>{8c06fa43-ea0a-4ee0-b8ed-307bd597b90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\03. Camera">
+      <UniqueIdentifier>{d606d1b9-d8e6-4d30-ace9-27a702fd8b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\05. SensorComponent">
+      <UniqueIdentifier>{01013b05-7fac-42c8-badd-626228087861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. BTNode">
+      <UniqueIdentifier>{ca75dc26-4d08-45e6-840b-7a6470323378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. BTNode\01. Base">
+      <UniqueIdentifier>{2e2aa40f-afbb-4da6-85e7-9c2c8f433670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. BTNode\02. Composite">
+      <UniqueIdentifier>{54c9f02f-8db2-4afc-8e57-3a3d609dd5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. BTNode\03. Decorator">
+      <UniqueIdentifier>{307c7def-3a3c-4dc7-9eac-23c9e106f873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. BTNode\03. Decorator\01. Base">
+      <UniqueIdentifier>{6b883872-503c-466d-aa3b-f8bf6433ebf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. BTNode\03. Decorator\02. BBDeco">
+      <UniqueIdentifier>{1970c67b-1edf-4039-8f76-778687711aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\04. BTNode\04. Task">
+      <UniqueIdentifier>{53d60e78-bed5-4841-854d-e7ed6cf55d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine">
+      <UniqueIdentifier>{fbbfa3fe-86e3-4dac-9892-159866fe8121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\01. World">
+      <UniqueIdentifier>{4dc38a71-1417-4ef3-b74f-ad20f806ecd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine\02. Level">
+      <UniqueIdentifier>{f6bbcd69-dce2-4762-b908-4aa288a6ebee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\04. Skybox">
+      <UniqueIdentifier>{3df67c91-ddc9-4ccf-bd6d-ba2e243cc651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\09. Input">
+      <UniqueIdentifier>{9e287bbd-7bda-448f-b6ab-7276cd748425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\10. Resource">
+      <UniqueIdentifier>{6255b18a-12ff-49f2-8af5-c8a0128670af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Header\01. Default">
+      <UniqueIdentifier>{d36d9660-7cc7-4ec1-a139-03e0acba6056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Header\02. Custom">
+      <UniqueIdentifier>{c2489177-f27c-4830-a2c0-f227a8f596c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\11. Render">
+      <UniqueIdentifier>{52ed8394-f109-45ec-9f52-50a74b257db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Manager\12. Sound">
+      <UniqueIdentifier>{5f8a2965-fc0d-4a0c-b9df-1cfe4c605539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\06. InputComponent">
+      <UniqueIdentifier>{3b2f03c2-8eb5-4365-8aae-ad6f3fb687b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\04. Light">
+      <UniqueIdentifier>{3745e62c-2c7d-40a9-ae2f-b9faa17ad014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\05. Animation">
+      <UniqueIdentifier>{c7aa10d3-cfda-4a6a-b6bf-90166b81c18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\05. Animation\01. Base">
+      <UniqueIdentifier>{a84ae021-c29a-4cd4-a186-e20f97b83ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\05. Animation\02. Effect">
+      <UniqueIdentifier>{f16d7bda-c230-4ff7-a05b-8f84b09bb52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\02. Actor\03. UserInterface">
+      <UniqueIdentifier>{3b1bf524-ceef-4cc4-a591-cdc97dc702b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\04. Light\01. Base">
+      <UniqueIdentifier>{e8f8db83-2fa3-4b96-9319-c068f67f9a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\04. Light\02. Directional">
+      <UniqueIdentifier>{75d33e08-31c4-47dc-ae2d-7cefc970dbea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\07. PhysicsComponent">
+      <UniqueIdentifier>{1ee1beff-0fc1-4ae4-ae06-734a3672e9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\08. SoundComponent">
+      <UniqueIdentifier>{e01ab6bf-b46c-463b-8327-7e1a660dc3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\05. SpringArm">
+      <UniqueIdentifier>{3cf0d274-9ad1-4a6f-b70e-143adf51944c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\04. Particle">
+      <UniqueIdentifier>{82f2da82-d8ec-4e6c-ba35-a323538bfb15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\04. Light\03. Spot">
+      <UniqueIdentifier>{085c7f41-c68f-406f-a584-d43c5035a150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\04. Light\04. Point">
+      <UniqueIdentifier>{7f43e570-8183-4f14-813d-10c719df836b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\05. Landscape">
+      <UniqueIdentifier>{7cd06675-6308-4962-ad70-566aba6e1fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI">
+      <UniqueIdentifier>{dd20e79f-fca4-4494-bd02-43a0f6289a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\01. Base">
+      <UniqueIdentifier>{6aca9333-b2f2-466d-8a4a-a356a4bec3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\02. Interactive">
+      <UniqueIdentifier>{6915c8af-8a69-48ad-9ec7-46db08622592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\03. ActorComponent\04. SceneComponent\02. Primitive\02. Mesh\06. UI\03. Non Interactive">
+      <UniqueIdentifier>{ad1f5972-0ad7-4722-b6b8-c6d4875353ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

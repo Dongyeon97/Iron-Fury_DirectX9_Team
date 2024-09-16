@@ -1,0 +1,73 @@
+﻿  pch.cpp
+  Actor.cpp
+  ActorComponent.cpp
+  AnimationComponent.cpp
+  BehaviorTreeComponent.cpp
+  BlackBoardComponent.cpp
+  BTBlackBoardDecorator.cpp
+  BTNode.cpp
+  BTCompositeNode.cpp
+  Creature.cpp
+  CubeColliderActor.cpp
+  CubeColliderComponent.cpp
+  CollisionManager.cpp
+  CubeMeshComponent.cpp
+  CameraComponent.cpp
+  Character.cpp
+  BTDecorator.cpp
+  DeviceManager.cpp
+  DirectionalLightComponent.cpp
+  EffectComponent.cpp
+  Font.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  FontManager.cpp
+  Frame.cpp
+  FrameManager.cpp
+  GameManager.cpp
+  InputComponent.cpp
+  InputManager.cpp
+  InteractiveBox.cpp
+  InteractiveUIComponent.cpp
+  LandscapeComponent.cpp
+  Level.cpp
+  LightComponent.cpp
+  MeshComponent.cpp
+  NonInteractiveUIComponent.cpp
+  Object.cpp
+  ParticleComponent.cpp
+  PhysicsComponent.cpp
+  PointLightComponent.cpp
+  RectColliderComponent.cpp
+  PrefabManager.cpp
+  PrimitiveComponent.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  RectangleMeshComponent.cpp
+  RenderManager.cpp
+  ResourceManager.cpp
+  SceneComponent.cpp
+  ColliderComponent.cpp
+  SelectionButtonUIComponent.cpp
+  SensorComponent.cpp
+  SkyboxComponent.cpp
+  SpawnManager.cpp
+  SoundComponent.cpp
+  SoundManager.cpp
+  SpotLightComponent.cpp
+  SphereColliderComponent.cpp
+  SpringArmComponent.cpp
+  SpriteUIComponent.cpp
+  TextUI.cpp
+  TextUIComponent.cpp
+  BTTaskNode.cpp
+  Timer.cpp
+  TimerManager.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  UI.cpp
+  UIComponent.cpp
+  World.cpp
+  EnginePCH.cpp
+  코드를 생성하고 있습니다...
+  Engine.vcxproj -> C:\Users\kids1\Desktop\쥬신\01. 팀과제\SR_팀 포트폴리오\SR-Portfolio\Framework\Engine\Engine\Binary\Engine.lib
